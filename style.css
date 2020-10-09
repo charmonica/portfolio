@@ -11,6 +11,9 @@ font-family: 'Karla', sans-serif;
 
 body {
   background-color: #e3e5e4;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 header {
@@ -106,8 +109,14 @@ p, li {
     line-height: 26px;
 }
 
+li {
+  font-weight: bold;
+}
+
 ul {
-  list-style-image: url(images/flower-graphic.png);
+  list-style-image: none;
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
 a {
@@ -147,6 +156,11 @@ img, iframe {
   border-radius: 8px;
 }
 
+.chrissyImg {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 iframe { 
   border: 1px solid #000;
   height: auto;
@@ -163,6 +177,7 @@ ul.plant li {
 }
 
 /* Fieldsets & Forms */
+
 fieldset {
   border: 0;
   font-family: 'Spectral SC', serif;
