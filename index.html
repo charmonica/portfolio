@@ -116,15 +116,16 @@
           
                 <p>Please reach out if you think I might be a good fit for a job that needs doing or if you have any comments or suggestions on how I can improve my code-fu!</p>
             </div>
-            <div class="item">
+            <div class="item email-form">
                 <form action="https://formspree.io/xyynenop" method="POST">
                     <fieldset>
                     <legend>Shoot me an email!</legend>
                     <label>
                       Your email:  <input type="text" name="_replyto" required>
                     </label>
+
                     <label>
-                      Your message:  <input type="text" class="message" name="_replyto" required>
+                        Your message:  <textarea id="email-message" name="email-content" class="message" rows="4" required></textarea>
                     </label>
                     <button type="submit">Send</button>
                   </fieldset>
