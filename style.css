@@ -186,6 +186,7 @@ fieldset {
 
 form {
   display: inline-block;
+  box-sizing: border-box;
 }
 
 form button {
@@ -195,16 +196,15 @@ form button {
 form input {
   font-family: 'Spectral', serif;
   display: block;
+  margin: auto;
+}
+
+.message {
+  width: 250px;
 }
 
 form label {
   display: block;
-  padding: 5px;
-}
-
-form textarea {
-  width: 150%;
-  height: 150px;
   padding: 5px;
 }
 
